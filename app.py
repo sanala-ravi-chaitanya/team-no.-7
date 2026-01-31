@@ -33,10 +33,17 @@ st.markdown("""
     }
     .info-box {
         background-color: #E8F5E9;
-        padding: 1rem;
+        color: #1B5E20;
+        padding: 1.5rem;
         border-radius: 0.5rem;
         border-left: 4px solid #4CAF50;
         margin: 1rem 0;
+        font-size: 1rem;
+        line-height: 1.6;
+    }
+    .info-box p {
+        color: #1B5E20 !important;
+        margin: 0.5rem 0;
     }
     .result-card {
         background-color: #F5F5F5;
